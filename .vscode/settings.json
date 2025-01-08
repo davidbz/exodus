@@ -1,0 +1,41 @@
+{
+    // General Editor Settings
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.trimAutoWhitespace": true,
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/zig-cache": true,
+        "**/zig-out": true
+    },
+    "files.watcherExclude": {
+        "**/zig-cache/**": true,
+        "**/zig-out/**": true
+    },
+    // Zig-Specific Settings
+    "[zig]": {
+        "editor.defaultFormatter": "ziglang.vscode-zig",
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    // Extensions and IntelliSense
+    "extensions.ignoreRecommendations": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    // Error Lens
+    "errorLens.enabled": true,
+    "errorLens.fontWeight": "normal",
+    "errorLens.fontSize": "90%",
+    // GitLens Configuration
+    "gitlens.currentLine.enabled": true,
+    "gitlens.hovers.enabled": true,
+}
